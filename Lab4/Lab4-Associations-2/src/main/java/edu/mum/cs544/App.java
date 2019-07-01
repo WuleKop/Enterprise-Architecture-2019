@@ -66,6 +66,7 @@ public class App {
         office.removeEmployee(employee2);
         em.persist(office);
         em.getTransaction().commit();
+        em.close();
 
 
 
